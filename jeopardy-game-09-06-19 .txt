@@ -1,0 +1,85 @@
+HTML
+  $100 - What is the correct HTML tag to emphasize text?
+           ( em )
+
+  $200 - What HTML element defines the title of a document?
+           ( <title> )
+
+  $300 - What HTML attribute specifies an alternate text for an image if the image cannot be displayed?
+           ( alt )
+
+  $400 - True or False: A list item with no value still produces a structure list.
+           ( True )
+
+  $500 - What is the correct doctype for HTML5?
+           ( <!DOCTYPE html> )
+
+
+CSS
+  $100 - True or False: You can position a fixed layout anywhere on the page.
+           ( True )
+
+  $200 - What style sheet entry is used to move text inside a <div> 20 pixels from the top?
+           ( padding-top: 20px )
+
+  $300 - Which CSS style property is used to prevent elements from pushing through another?
+           ( clear )
+
+  $400 - Which CSS property controls the manner in which elements overlap each other?
+           ( z-index )
+
+  $500 - What is the correct way to add a comment in a CSS file?
+           ( /* Comment */ )
+
+
+JavaScript
+  $100 - Groups of statements that repeat a certain number of times is referred to as what?
+           ( loop )
+
+  $200 - What are variables used for in JavaScript programs?
+           ( Storing numbers, dates, or other values )
+
+
+  $300 - A script that executes when a user clicks the mouse button is an example of what?
+           ( Event Handler )
+
+  $400 - What does the plus sign mean in the following?
+                document.write("This is a text string" + " that I have created.");
+           ( Joins the two strings together )
+
+  $500 - A special type of storage unit in JavaScript that holds multiple values is called what?
+           ( Array )
+
+
+WWW
+  $100 - What type of program is typically used to access the internet?
+           ( Browser )
+
+  $200 - What is the common name for a computer that contains websites?
+           ( Server )
+
+  $300 - What is File Transfer Protocol  (FTP) used for?
+           ( Transfer files to the server )
+
+  $400 - What is the name used to define a website that adjusts the layout based on the device?
+           ( Responsive )
+
+  $500 - What is the name of the debugging options built into modern browsers?
+           ( Dev Tools )
+
+
+DOM
+  $100 - Name one programming language that has access to the DOM.
+           ( JavaScript )
+
+  $200 - What is the common name for an object nested inside of another object?
+           ( Child )
+
+  $300 - What is the name of the Object that contains all the links in the current document?
+           ( Links )
+
+  $400 - What Object is the first Object in the DOM hierarchy?
+           ( Window )
+
+  $500 - What Object contains the contents of the current page?
+           ( Document )

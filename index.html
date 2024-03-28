@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>This is Jeopardy!</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="javascript/functions.js"></script>
+  </head>
+  <body>
+    <table id="gameboard">
+      <thead>
+        <tr>
+          <th>
+            HTML
+          </th>
+          <th>
+            CSS
+          </th>
+          <th>
+            JavaScript
+          </th>
+          <th>
+            WWW
+          </th>
+          <th>
+            DOM
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <a href="#" data-question="How many files would you need to store on a web server to produce
+            a single web page with some text and two images on it?" data-answer="three" class="question">$100</a>
+          </td>
+          <td>
+            <a href="#" data-question="How many different ways are there to ensure that style rules can
+            be applied to you content?" data-answer="3" class="question">$100</a>
+          </td>
+          <td>
+            <a href="#" data-question="What tool do you use to create and edit javascript programs?" data-answer="A text editor" class="question">$100</a>
+          </td>
+          <td>
+            <a href="#" data-question="Which of these attributes of a <form> tag determines where the data will be sent?" data-answer="action" class="question">$100</a>
+          </td>
+          <td>
+            <a href="#" data-question="which of the followings tags can be used to create a layer" data-answer="<div>" class="question">$100</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="#" data-question="Choose the correct HTML element for the largest heading?" data-answer="h1" class="question">$200</a>
+          </td>
+          <td>
+            <a href="#" data-question="What is the correct HTML for referring to an external style sheet?" data-answer="" class="question">$200</a>
+          </td>
+          <td>
+            <a href="#" data-question="Where is the correct place to insert a JavaScript?" data-answer="head and body tag" class="question">$200</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="Server" class="question">$200</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$200</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$300</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$300</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$300</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$300</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$300</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$400</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$400</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$400</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$400</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$400</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$500</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$500</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$500</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$500</a>
+          </td>
+          <td>
+            <a href="#" data-question="" data-answer="" class="question">$500</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div id="answerbox" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modal-question">This text will be replaced with the real question.</p>
+      </div>
+    </div>
+
+    <div id="introbox" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="images/jeopardy.jpg" alt="Jeopardy">
+      </div>
+    </div>
+
+    <audio id="music" preload="auto">
+      <source src="music/jeopardy.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </body>
+</html>

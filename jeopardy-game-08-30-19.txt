@@ -1,0 +1,59 @@
+HTML
+  $100 - What does HTML stand for? 
+           ( Hypertext Markup Language )
+  $200 - Choose the correct HTML element for the largest heading? 
+           ( <h1> )
+  $300 - How can you make a numbered list? 
+           ( <ol> )
+  $400 - What is the correct HTML for creating a hyperlink? 
+           ( <a href="">text</a> )
+  $500 - How do you make comments in HTML? 
+           ( <!-- and end with --> )
+
+CSS
+  $100 - What does CSS stand for? 
+           ( Cascading Style Sheets )
+  $200 - What is the correct HTML for referring to an external style sheet? 
+           ( <link rel="stylesheet" type="text/css" href="style.css"> )
+  $300 - Where in an HTML document is the correct place to refer to an external style sheet?
+           ( <head> )
+  $400 - Which CSS property controls the text size?
+           ( font-size )
+  $500 - How do you display hyperlinks without an underline?
+           ( text-decoration: none; )
+
+JavaScript
+  $100 - Inside which HTML element do we put the JavaScript?
+           ( <script> )
+  $200 - Where is the correct place to insert a JavaScript?
+           ( <head> and <body> )
+  $300 - How do you write "Hello World" in an alert box?
+           ( alert("Hello World"); )
+  $400 - How do you call a function named "myFunction"?
+           ( myFunction(); )
+  $500 - How does a FOR loop start?
+           ( for(i = 0; i <= 5; i++) )
+
+WWW
+  $100 - What does WWW stand for?
+           ( World Wide Web )
+  $200 - What is the default file a web browser looks for on a site?
+           ( index.html )
+  $300 - What is File Transfer Protocol  (FTP) used for?
+           ( Transfer files to the server )
+  $400 - How many files would you need to store on a web server for a single web page and two images?
+           ( 3 )
+  $500 - Does your website have to include a directory structure (Files & Folders)?
+           ( No )
+
+DOM
+  $100 - What does DOM stand for?
+           ( Document Object Model )
+  $200 - Which of he following DOM objects never have a parent? (Body, Div, Document)
+           ( document )
+  $300 - Which of the following tags can be used to create a layer? (Layer, Div, Style)
+           ( Div )
+  $400 - What code would you use to make a visitor go back 1 page in their history?
+           ( history.go(-1) or history.back() )
+  $500 - What function would you use in JavaScript to get the DOM object with a ID of header1?
+           ( document.getElementByID("header1") )
